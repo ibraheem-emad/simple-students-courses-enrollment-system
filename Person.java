@@ -1,3 +1,5 @@
+//abstract class for student to inherit from
+
 package student.course.enrollment;
 
 

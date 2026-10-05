@@ -1,3 +1,4 @@
+//course object class
 package student.course.enrollment;
 
 

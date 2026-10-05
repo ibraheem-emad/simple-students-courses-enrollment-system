@@ -1,3 +1,5 @@
+//link object between student and course
+
 package student.course.enrollment;
 
 
