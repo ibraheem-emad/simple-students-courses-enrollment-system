@@ -1,14 +1,13 @@
 package student.course.enrollment;
 
 
-public class Student
+public class Student extends Person
 {
-    private String name;
     private String id;
     private int grade;
 
     public String getName() {
-        return name;
+        return super.name;
     }
 
     public String getId() {
@@ -21,7 +20,7 @@ public class Student
 
 
     public void setName(String name) {
-        this.name = name;
+        super.name = name;
     }
 
     public void setId(String id) {
@@ -33,7 +32,7 @@ public class Student
     }
 
     public Student(String name, String id, int grade) {
-        this.name = name;
+        super.name = name;
         this.id = id;
         this.grade = grade;
     }
@@ -41,6 +40,6 @@ public class Student
     
     @Override
     public String toString() {
-        return "{" + "name=" + name + ", id=" + id + ", grade=" + grade + '}';
+        return "{" + "name=" + super.name + ", id=" + id + ", grade=" + grade + '}';
     }
 }
